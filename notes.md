@@ -54,3 +54,5 @@ From here we can start to see how the process is going to work. If we go into Vi
 ![Repository with Changes Screen](ChangesGitHubDesktop.png)
 
 Along the left side, GitHub Desktop automatically identifies any new, deleted, or modified files and queues them for us for potential versioning. When you click on a file like you see above, we refer to this screen as a `diff`, which is a way to see what was changed within a file (red being deleted and green being added). The checkboxes along the left side of the files on the left function as our `add` command. When checked, they are in our staging area, and when unchecked are left alone in the local working directory. After adding files comes `commit`, which we can see a grayed out blue button at the bottom left for. In order to commit, we have to provide a summary (what we referred to earlier as a commit message). Filling one in allows us to save our new version by clicking the `Commit to main` button. Now are GitHub Desktop changes drastically and looks like this:
+
+![Repository with Commit Screen](CommitGitHubDesktop.png)
