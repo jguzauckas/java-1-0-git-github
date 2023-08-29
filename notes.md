@@ -63,6 +63,6 @@ Notice now the blue highlighted section in the middle. GitHub being a remote rep
 
 Whenever GitHub Desktop looks like this, it means that our local working directory is no different from our most recent commit, and therefore you wouldn't lose any work if something happened to the computer (or you went to use a computer elsewhere). Always check GitHub Desktop before getting off of a computer after you've done work to make sure you didn't miss saving anything!
 
-Given you are working on a project between multiple computers and are moving back and forth, at some point you will have to update a repository with the `pull` command.
+Given you are working on a project between multiple computers and are moving back and forth, at some point you will have to update a repository with the `pull` command. This can be done
 
 Following these steps with any repository will allow you to get work done and make sure nothing happens to any of it!
