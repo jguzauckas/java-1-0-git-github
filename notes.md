@@ -41,4 +41,16 @@ To put it simply, git is the method by which we are saving our files and folders
 
 GitHub Desktop gives us an easy way to work with a repository, including ways to handle all of our previously-discussed commands.
 
-First, we need a repository to work with. To make this easiest, we can start by using this repository with the git and GitHub notes. The critical thing we need in order to use this repository in GitHub Desktop is the GitHub link from our web browser that leads to the repository.
+First, we need a repository to work with. To make this easiest, we can start by using this repository with the git and GitHub notes. The critical thing we need in order to use this repository in GitHub Desktop is the GitHub link from our web browser that leads to the repository. For me, this link is `https://github.com/jguzauckas/java-1-0-git-github`.
+
+With this link in hand, we can go over to GitHub Desktop and click `File` at the top left. From here, we want to select `Clone Repository`. We refer to this process as `cloning` because we are making a copy of the remote repository to work off of.
+
+In the sub-window that pulls up, select `URL` across the top and paste in our link. Now we can press `Clone` and get to work. Now our GitHub Desktop looks something like this:
+
+![Basic Repository Screen](BaseGitHubDesktop.png)
+
+From here we can start to see how the process is going to work. If we go into Visual Studio Code and work on our repository by adding, deleting, or modifying files as our local working directory, we can come back and see that it's updated:
+
+![Repository with Changes Screen](ChangesGitHubDesktop.png)
+
+Along the left side, GitHub Desktop automatically identifies any new, deleted, or modified files and queues them for us for potential versioning. When you click on a file like you see above, we refer to this screen as a `diff`, which is a way to see what was changed within a file (red being deleted and green being added). The checkboxes along the left side of the files on the left function as our `add` command. When checked, they are in our staging area, and when unchecked are left alone in the local working directory. After adding files comes `commit`, which we can see a grayed out blue button at the bottom left for. In order to commit, we have to provide a summary (what we referred to earlier as a commit message). Filling one in allows us to save our new version by clicking the `Commit to main` button. Now are GitHub Desktop changes drastically and looks like this:
