@@ -10,7 +10,7 @@ The most important scenario where versioning is relevant is when deleting is at 
 
 The git processes we will be using are just the beginning of what git is capable of, but are the core reasons we will be using it. Check out this diagram:
 
-![Git Diagram](GitDiagram.svg)
+![Git Diagram](Pictures/GitDiagram.svg)
 
 There's a lot going on in this diagram so let's break it down by looking first at the colored categories:
 
@@ -47,19 +47,19 @@ With this link in hand, we can go over to GitHub Desktop and click `File` at the
 
 In the sub-window that pulls up, select `URL` across the top and paste in our link. Now we can press `Clone` and get to work. Now our GitHub Desktop looks something like this:
 
-![Basic Repository Screen](BaseGitHubDesktop.png)
+![Basic Repository Screen](Pictures/BaseGitHubDesktop.png)
 
 From here we can start to see how the process is going to work. If we go into Visual Studio Code and work on our repository by adding, deleting, or modifying files as our local working directory, we can come back and see that it's updated:
 
-![Repository with Changes Screen](ChangesGitHubDesktop.png)
+![Repository with Changes Screen](Pictures/ChangesGitHubDesktop.png)
 
 Along the left side, GitHub Desktop automatically identifies any new, deleted, or modified files and queues them for us for potential versioning. When you click on a file like you see above, we refer to this screen as a `diff`, which is a way to see what was changed within a file (red being deleted and green being added). The checkboxes along the left side of the files on the left function as our `add` command. When checked, they are in our staging area, and when unchecked are left alone in the local working directory. After adding files comes `commit`, which we can see a grayed out blue button at the bottom left for. In order to commit, we have to provide a summary (what we referred to earlier as a commit message). Filling one in allows us to save our new version by clicking the `Commit to main` button. Now are GitHub Desktop changes drastically and looks like this:
 
-![Repository with Commit Screen](CommitGitHubDesktop.png)
+![Repository with Commit Screen](Pictures/CommitGitHubDesktop.png)
 
 Notice now the blue highlighted section in the middle. GitHub being a remote repository provider has the UI highlight when you have saved versions locally that have not been uploaded anywhere. The final step of pushing is as simple as clicking the blue `Push origin` button, resulting in GitHub Desktop returning to normal:
 
-![Repository with Push Screen](PushGitHubDesktop.png)
+![Repository with Push Screen](Pictures/PushGitHubDesktop.png)
 
 Whenever GitHub Desktop looks like this, it means that our local working directory is no different from our most recent commit, and therefore you wouldn't lose any work if something happened to the computer (or you went to use a computer elsewhere). Always check GitHub Desktop before getting off of a computer after you've done work to make sure you didn't miss saving anything!
 
