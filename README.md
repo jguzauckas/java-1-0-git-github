@@ -11,4 +11,4 @@ This section covers the following material:
 - `git` vs. GitHub
 - Using GitHub Desktop
 
-To use this repository, start with the `notes.md` document.
+To use this repository, start with the `notes.md` document. I have created videos that walk through these notes that you can watch/listen to [here](https://www.youtube.com/playlist?list=PLZRWEE_uVdNuO3aC_8YjogWmeE0YXyK1l)
